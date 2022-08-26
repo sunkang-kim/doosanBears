@@ -1,0 +1,168 @@
+@charset "utf-8";
+/*--------------------서브 비주얼 영역 시작------------------*/
+#subvisual {
+    text-align: center;
+    height: 200px;
+    background: url(../image/subImage/sub_visual_login.png) no-repeat center top;
+}
+.sub_title {
+    color: #fff;
+    padding: 50px;
+}
+.sub_title h2 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
+/*--------------------서브 비주얼 영역 종료------------------*/
+
+/*--------------------회원가입 영역 시작-----------------------*/
+#memberArea {
+    margin: 100px auto;
+    width: 1100px;
+}
+#memberArea h2 {
+    color: #131230;
+    margin: 5px;
+}
+#joinForm {
+    border-top: 3px solid #131230;
+}
+#joinForm p {
+   border-bottom: 1px solid #ccc;
+   overflow: hidden;
+   position: relative;
+}
+#joinForm label {
+    float: left;
+    width: 140px;
+    padding: 25px 35px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #666;
+    background-color: #f5f5f5;
+}
+#joinForm input {
+    width: 300px;
+    margin: 20px 0 ;
+    padding: 7px;
+    border: 1px solid #c7c7c7;
+    background: #f6f6f6;
+    font-size: 14px;
+}
+#joinForm .idCheck {
+    font-size: 0.9em;
+    background-color: #ccc;
+    color: #fff;
+    padding: 2px 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+#joinForm .nicknameCheck {
+    font-size: 0.9em;
+    background-color: #ccc;
+    color: #fff;
+    padding: 2px 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+#joinForm .birthday span {
+    margin-left: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#joinForm .chooseLabel {
+    background-color: #fff;
+    padding: 0;
+}
+#joinForm .chooseLabel input[type="radio"] {
+    display: none;
+}
+#joinForm .chooseLabel input[type="radio"] + span {
+    display: inline-block;
+    width: 80px;
+    height: 45px;
+    font-size: 1em;
+    margin-top: 13px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: none;
+    border-radius: 5px;
+}
+#joinForm .chooseLabel input[type="radio"]:checked + span {
+    background-color: #131230;
+    color: #fff;
+}
+#joinForm .mailing {
+    position: relative;
+    height: 73px;
+}
+#joinForm .mailing input {
+    margin: 10px 0 ;
+}
+#joinForm .mailing #emailAgree {
+    width: 110px;
+}
+#joinForm .mailing .check_email {
+    background: #fff;
+    position: absolute;
+    width: 350px;
+    top: 15px;
+    right: 110px;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+}
+#joinForm .mailing .check_def {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+#joinForm .tel {
+    position: relative;
+}
+#joinForm .tel select {
+    width: 110px;
+    background: #f6f6f6;
+    padding: 7px;
+    margin-right: 10px;
+}
+#joinForm .tel input {
+    width: 110px;
+}
+#joinForm .tel .checkbox_style label {
+    background: #fff;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+}
+#joinForm .btnJoinArea {
+    text-align: center;
+    margin: 30px;
+}
+#joinForm .btnJoinArea button {
+    font-size: 1em;
+    font-weight: bold;
+    background: #b5b5b5;
+    border: 1px solid #b5b5b5;
+    margin: 0 30px;
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*--------------------회원가입 영역 종료-----------------------*/

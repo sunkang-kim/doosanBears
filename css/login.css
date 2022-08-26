@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*--------------------서브 비주얼 영역 시작------------------*/
+#subvisual {
+    text-align: center;
+    height: 200px;
+    background: url(../image/subImage/sub_visual_login.png) no-repeat center top;
+}
+.sub_title {
+    color: #fff;
+    padding: 50px;
+}
+.sub_title h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+.sub_title p {
+    font-size: 20px;
+}
+/*--------------------서브 비주얼 영역 종료------------------*/
+
+/*------------------로그인 영역 시작-------------------------*/
+#loginArea {
+    margin: 0 auto;
+    width: 850px;
+}
+#loginWrap {
+    margin: 50px 0 20px 0;
+    line-height: 30px;
+    padding: 10px 30px;
+}
+#loginWrap > p {
+    text-align: left;
+}
+#loginWrap h2 {
+    font-size: 1.2em;
+}
+#loginWrap a {
+    font-weight: bold;
+}
+#loginWrap a:hover {
+    color: #000;
+}
+#loginWrap2 {
+    border: 8px solid #f0f0f0;
+    height: 450px;
+    width: 850px;
+}
+#loginWrap2 .loginbox {
+    padding: 60px 105px;
+    position: relative;
+}
+#loginWrap2 .loginbox input {
+    border: 1px solid #ccc;
+}
+.loginbox p {
+    margin-left: 30px;
+}
+#loginWrap2 .loginbox p label {
+    width: 80px;
+    display: inline-block;
+    line-height: 46px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.userid, .userpw {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 17px;
+    line-height: 17px;
+    outline: none;
+    margin-bottom: 10px;
+}
+#loginWrap2 button {
+    position: absolute;
+    right: 135px;
+    top: 58px;
+    display: inline-block;
+    background: #20155e;
+    padding: 0px;
+    color: #fff;
+    font-size: 17px;
+    margin: 0;
+    border: none;
+    width: 150px;
+    height: 106px;
+    line-height: 106px;
+    cursor: pointer;
+}
+.lost {
+    text-align: center;
+    margin-top: 30px;
+}
+.lost strong {
+    font-weight: normal;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+.lost a {
+    padding: 0 30px;
+}
+.lost a::before {
+    content: "> ";
+}
+.lost a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.loginjoin {
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 40px 0;
+}
+.loginjoin p {
+    margin-bottom: 20px;
+}
+.loginjoin a {
+    display: inline-block;
+    background: #6d6d6d;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 15px;
+}
+/*------------------로그인 영역 종료-------------------------*/
